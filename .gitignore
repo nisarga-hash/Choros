@@ -1,5 +1,15 @@
+# ----------------------------
+# Node / Vite / Tauri
+# ----------------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+
+# Tauri build output
+src-tauri/target/
+
 # Logs
-logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,19 +17,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
-node_modules
-dist
-dist-ssr
-*.local
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
 
-# Build outputs
-target/
-build/
-dist/
-dist-ssr/
+# ----------------------------
+# Environment variables
+# ----------------------------
+.env
+.env.*
+!.env.example
 
+# ----------------------------
 # Python
+# ----------------------------
 venv/
 env/
 ENV/
@@ -32,66 +46,57 @@ __pycache__/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Editor directories and files
-.vscode/*
+# ----------------------------
+# Databases
+# ----------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------------------
+# Test / coverage
+# ----------------------------
+coverage/
+.nyc_output/
+
+# ----------------------------
+# Editor / IDE
+# ----------------------------
+.vscode/
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# Environment variables (NEVER commit these)
-.env
-.env.local
-.env.*.local
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-
-# OS files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# IDE-specific
-.idea/
-.vscode/
 *.swp
 *.swo
 *~
 
-# Tauri
-src-tauri/target/
-
-# Development artifacts
-OTP.txt
-SETUP_OTP.md
-
-# Sensitive files
+# ----------------------------
+# Secrets / credentials
+# ----------------------------
 *.pem
 *.key
 *.keystore
 
-# Bun
+# OTP seed / one-time data should not be committed
+OTP.txt
+SETUP_OTP.md
+
+# ----------------------------
+# Accidental artifact files
+# ----------------------------
+*.png.txt
+*.jpg.txt
+*.jpeg.txt
+*.webp.txt
+
+# ----------------------------
+# Bun lock (keep ignored if you don't want it committed)
+# ----------------------------
 bun.lockb
 pnpm-lock.yaml
 yarn.lock
 
-# Test coverage
-coverage/
-.nyc_output/
-
-# Miscellaneous
-.cache/
-.temp/
-tmp/
-*.tmp
