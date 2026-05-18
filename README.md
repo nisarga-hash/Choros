@@ -144,8 +144,13 @@ A powerful, modern desktop application for managing your tasks, notes, and sched
 
 3. **Install Python dependencies** (if using backend services)
    ```bash
+   # Create venv
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+   # Activate (Windows)
+   venv\Scripts\activate
+
+   # Install deps
    pip install -r requirements.txt
    ```
 
