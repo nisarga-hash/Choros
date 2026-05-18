@@ -1,0 +1,19 @@
+PLACEHOLDER - Settings Screenshot
+==================================
+
+This is a placeholder file for the settings screenshot.
+
+What this screenshot should show:
+- User profile section
+- Account settings
+- Notification preferences
+- Theme selector (light/dark)
+- Language dropdown
+- Privacy and security options
+- Application preferences
+- Save settings button
+
+Location in app: Settings page
+Resolution: Minimum 1280x720px
+
+Replace this file with an actual PNG screenshot of the settings interface.

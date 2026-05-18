@@ -1,0 +1,18 @@
+PLACEHOLDER - Planner/Calendar Screenshot
+==========================================
+
+This is a placeholder file for the planner/calendar screenshot.
+
+What this screenshot should show:
+- Full calendar view (month or week)
+- Scheduled events
+- Event creation interface
+- Time blocking display
+- Event details popup
+- Navigation controls (previous/next month)
+- Event reminders/notifications
+
+Location in app: Planner page
+Resolution: Minimum 1280x720px
+
+Replace this file with an actual PNG screenshot of the planner.

@@ -1,0 +1,18 @@
+PLACEHOLDER - Tasks Management Screenshot
+==========================================
+
+This is a placeholder file for the tasks management screenshot.
+
+What this screenshot should show:
+- Task list with multiple tasks
+- Task creation button
+- Priority indicators (High, Medium, Low)
+- Status badges (To-do, In-progress, Completed)
+- Due date information
+- Task analytics/statistics
+- Filters and search functionality
+
+Location in app: Tasks page
+Resolution: Minimum 1280x720px
+
+Replace this file with an actual PNG screenshot of the tasks interface.

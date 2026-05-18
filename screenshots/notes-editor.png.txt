@@ -1,0 +1,17 @@
+PLACEHOLDER - Notes Editor Screenshot
+======================================
+
+This is a placeholder file for the notes editor screenshot.
+
+What this screenshot should show:
+- Note creation/editing interface
+- Rich text editor toolbar
+- Summarize button (⚡ Zap icon)
+- Translate button (🌐 Globe icon) with language dropdown
+- Text area with sample note content
+- Save and delete buttons
+
+Location in app: Notes page, edit modal
+Resolution: Minimum 1280x720px
+
+Replace this file with an actual PNG screenshot of the notes editor.

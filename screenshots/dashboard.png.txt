@@ -1,0 +1,16 @@
+PLACEHOLDER - Dashboard Screenshot
+===================================
+
+This is a placeholder file for the dashboard screenshot.
+
+What this screenshot should show:
+- Main dashboard overview
+- Task summary and statistics
+- Calendar widget
+- Quick action buttons
+- Productivity metrics
+
+Location in app: Home/Dashboard page
+Resolution: Minimum 1280x720px
+
+Replace this file with an actual PNG screenshot of the dashboard.
