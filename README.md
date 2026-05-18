@@ -232,19 +232,37 @@ choros/
 
 ### Environment Variables
 
-Create a `.env` file in the project root:
+1. **Copy the example file**:
+   ```bash
+   cp .env.example .env
+   ```
 
-```env
-# API Configuration
-VITE_API_URL=http://localhost:8000
+2. **Fill in your credentials** in the `.env` file:
+   ```env
+   # Email Configuration (Gmail SMTP)
+   SMTP_EMAIL=your-email@gmail.com
+   SMTP_PASSWORD=your_app_password_here
+   
+   # API Configuration
+   VITE_API_URL=http://localhost:8000
+   
+   # Tauri Configuration
+   TAURI_ENV=development
+   
+   # Feature Flags
+   VITE_ENABLE_TRANSLATIONS=true
+   VITE_ENABLE_SUMMARIZATION=true
+   ```
 
-# Tauri Configuration
-TAURI_ENV=development
+### Gmail App Password Setup
 
-# Feature Flags
-VITE_ENABLE_TRANSLATIONS=true
-VITE_ENABLE_SUMMARIZATION=true
-```
+For OTP email functionality:
+
+1. Go to [Google Account Security](https://myaccount.google.com/apppasswords)
+2. Select **"Mail"** and your device type
+3. Google will generate a **16-character app password**
+4. Copy it to your `.env` file as `SMTP_PASSWORD`
+5. ⚠️ **Never commit `.env` file** - it's in `.gitignore`
 
 ### Tauri Configuration
 
@@ -253,6 +271,13 @@ Edit `src-tauri/tauri.conf.json` to customize:
 - Menu configuration
 - Security policies
 - File associations
+
+### Security Notes
+
+- ✅ `.env.example` shows the structure (commit this)
+- ❌ `.env` contains real credentials (never commit)
+- ❌ Never push passwords or API keys to GitHub
+- ✅ Share only `.env.example` with your team
 
 ---
 
